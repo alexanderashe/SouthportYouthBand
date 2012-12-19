@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Links>
+  <LinkAndTitle>
+    <Link>http://bentleyfalcons.com/</Link>
+    <Title>Bentley Falcons</Title>
+  </LinkAndTitle>
+  <LinkAndTitle>
+    <Link>http://bentleyfalcons.com/landing/headlines-featured?feed=rss_2.0</Link>
+    <Title>Top Sports News</Title>
+  </LinkAndTitle>
+  <LinkAndTitle>
+    <Link>http://bentleyfalcons.com/sports/mbkb/headlines-featured?feed=rss_2.0</Link>
+    <Title>Men's Basketball News</Title>
+  </LinkAndTitle>
+  <LinkAndTitle>
+    <Link>http://bentleyfalcons.com/sports/wbkb/headlines-featured?feed=rss_2.0</Link>
+    <Title>Women's Basketball News</Title>
+  </LinkAndTitle>
+  <LinkAndTitle>
+    <Link>http://bentleyfalcons.com/sports/mswimdive/headlines-featured?feed=rss_2.0</Link>
+    <Title>Men's Swimming and Diving News</Title>
+  </LinkAndTitle>
+  <LinkAndTitle>
+    <Link>http://bentleyfalcons.com/sports/wtrack/headlines-featured?feed=rss_2.0</Link>
+    <Title>Women's Track and Field News</Title>
+  </LinkAndTitle>
+</Links>

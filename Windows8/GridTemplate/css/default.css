@@ -1,0 +1,198 @@
+﻿/*Begin YourWindowsApp Template Changes*/
+
+body {
+    background-color:#F0F0ED;
+}
+
+#backgroundHead {
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:block;
+    height:29px;
+    width:100%;
+    background-color:#25272A;
+    border-bottom: 1px solid #444444;
+    z-index:-1;
+}
+#backgroundTitle {
+    position:absolute;
+    top:30px;
+    left:0px;
+    width:100%;
+    display:block;
+    height:86px;
+    background-color:#33363B;
+     z-index:-1;
+}
+#backgroundShim {
+    position:absolute;
+    top:116px;
+    left:120px;
+    display:block;
+    width:calc(100% - 120px);
+    height:5px;
+    background-color:#81A44D;
+     z-index:-1;
+}
+
+@media screen and (-ms-view-state: snapped) {
+#backgroundShim {
+    position:absolute;
+    top:116px;
+    left:0px;
+    display:block;
+    width:100%;
+    height:5px;
+    background-color:#81A44D;
+     z-index:-1;
+}
+}
+
+.group-title {
+    color:#25262A;  
+}
+
+.item-title {
+    color:#25262A;
+}
+.item-subtitle{
+    color:#25262A;
+}
+
+#contenthost {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    color:#F0F0EC;
+}
+
+.item-overlay {
+background: rgba(129,164,77,0.9) !important;
+}
+
+.item-overlay .item-title {
+    color: rgb(240, 240, 236);;
+}
+.item-overlay .item-subtitle{
+    color: rgb(240, 240, 236);;
+}
+
+.group-chevron {
+    color: rgb(210,77,51);
+}
+
+
+.win-backbutton {
+   border-color: rgba(129,164,77,1) !important;
+   color: rgba(129,164,77,1) !important;
+}
+
+.win-backbutton:hover {
+   border-color: rgba(129,164,77,0.65) !important;
+   color: rgba(129,164,77,0.65) !important;
+}
+
+.win-backbutton:hover:active {
+    background-color: rgba(129,164,77,0.5) !important;
+    border-color: rgba(129,164,77,0.65) !important;
+   color: rgba(129,164,77,0.65) !important;
+}
+.win-backbutton:-ms-keyboard-active {
+    background-color: rgba(129,164,77,0.1) !important;
+    border-color: rgba(129,164,77,0.65) !important;
+   color: rgba(129,164,77,0.65) !important;
+}
+
+.win-selectionstylefilled.win-listview .win-container:hover {
+   background-color: rgba(129,164,77,0.3) !important;
+   outline-color: rgba(129,164,77,0.65) !important;
+}
+
+.item-content img {
+    max-width:100%;
+}
+
+.groupeditemspage .item-image {
+    /*These images are (W:460px x H:250px) so this crops them to a square (W:250px x H:250px)*/
+    position:absolute;
+    top:0px;
+    left:-110px;
+    width:460px;
+    height:250px;
+    clip:rect(auto, auto,auto, 110px);
+    z-index:-1;
+}
+
+/*End YourWindowsApp Template Changes*/
+
+.fragment {
+    /* Define a grid with rows for a banner and a body */
+    -ms-grid-columns: 1fr;
+    -ms-grid-rows: 128px 1fr;
+    display: -ms-grid;
+    height: 100%;
+    width: 100%;
+}
+
+    .fragment header[role=banner] {
+        /* Define a grid with columns for the back button and page title. */
+        -ms-grid-columns: 120px 1fr;
+        -ms-grid-rows: 1fr;
+        display: -ms-grid;
+    }
+
+        .fragment header[role=banner] .win-backbutton {
+            margin-left: 39px;
+            margin-top: 59px;
+        }
+
+        .fragment header[role=banner] .titlearea {
+            -ms-grid-column: 2;
+            margin-top: 37px;
+        }
+
+            .fragment header[role=banner] .titlearea .pagetitle {
+                width: calc(100% - 20px);
+            }
+
+    .fragment section[role=main] {
+        -ms-grid-row: 2;
+        height: 100%;
+        width: 100%;
+    }
+
+@media screen and (-ms-view-state: snapped) {
+    .fragment header[role=banner] {
+        -ms-grid-columns: auto 1fr;
+        margin-left: 20px;
+    }
+
+        .fragment header[role=banner] .win-backbutton {
+            margin: 0;
+            margin-right: 10px;
+            margin-top: 76px;
+        }
+
+            .fragment header[role=banner] .win-backbutton:disabled {
+                display: none;
+            }
+
+        .fragment header[role=banner] .titlearea {
+            -ms-grid-column: 2;
+            margin-left: 0;
+            margin-top: 68px;
+        }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    .fragment header[role=banner] {
+        -ms-grid-columns: 100px 1fr;
+    }
+
+        .fragment header[role=banner] .win-backbutton {
+            margin-left: 29px;
+        }
+}

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Contacts>
+  <ContactInfo>
+    <ContactName>Ryan Johnson</ContactName>
+    <ContactEmail></ContactEmail> 
+    <ContactPhoto>http://photos-f.ak.fbcdn.net/hphotos-ak-ash4/300714_297971086880284_100000021856156_1212985_490882746_a.jpg</ContactPhoto> 
+    <ContactPhone></ContactPhone>
+    <ContactDescription>Ryan plays the flute.</ContactDescription>
+    <ContactLink>http://ryanj.me</ContactLink>
+  </ContactInfo>
+  <ContactInfo>
+    <ContactName>Alex Hunstone</ContactName>
+    <ContactEmail></ContactEmail>
+    <ContactPhoto>https://fbcdn-sphotos-a.akamaihd.net/hphotos-ak-ash4/294660_2512457128976_1179594348_3020802_571104747_n.jpg</ContactPhoto>
+    <ContactPhone></ContactPhone>
+    <ContactDescription>Alex plays the flute.</ContactDescription>
+    <ContactLink></ContactLink>
+  </ContactInfo>
+  <ContactInfo>
+    <ContactName>Yasmin Paul</ContactName>
+    <ContactEmail></ContactEmail>
+    <ContactPhoto>https://fbcdn-sphotos-a.akamaihd.net/hphotos-ak-snc3/22649_103717079655515_100000516707418_95720_1754014_n.jpg</ContactPhoto>
+    <ContactPhone></ContactPhone>
+    <ContactDescription>Yasmin also plays the flute.</ContactDescription>
+    <ContactLink></ContactLink>
+  </ContactInfo>
+  <ContactInfo>
+    <ContactName>Lawrence Wilkin</ContactName>
+    <ContactEmail></ContactEmail>
+    <ContactPhoto>
+      https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/274364_790854054_1366116686_n.jpg
+    </ContactPhoto>
+    <ContactPhone></ContactPhone>
+    <ContactDescription>Lawrence plays the trumpet for the band.</ContactDescription>
+    <ContactLink></ContactLink>
+  </ContactInfo>
+  <ContactInfo>
+    <ContactName>Alice Jones</ContactName>
+    <ContactEmail></ContactEmail>
+    <ContactPhoto>https://fbcdn-sphotos-a.akamaihd.net/hphotos-ak-snc6/180932_1621633780436_1224208600_31307275_1015755_n.jpg </ContactPhoto>
+    <ContactPhone></ContactPhone>
+    <ContactDescription>
+      Alice plays alto saxophone for SYB. 
+    </ContactDescription>
+      <ContactLink></ContactLink>
+  </ContactInfo>
+  <ContactInfo>
+    <ContactName>Paul Marshall</ContactName>
+    <ContactEmail></ContactEmail>
+    <ContactPhoto>http://twittertest.comlu.com/images/Members/pmarshall.jpg</ContactPhoto>
+    <ContactPhone></ContactPhone>
+    <ContactDescription>
+      Paul leads the band, also plays cornet.
+    </ContactDescription>
+    <ContactLink></ContactLink>
+  </ContactInfo>
+  <ContactInfo>
+    <ContactName>Jane Lineker</ContactName>
+    <ContactEmail></ContactEmail>
+    <ContactPhoto>https://fbcdn-sphotos-a.akamaihd.net/hphotos-ak-ash4/307269_10150304163214391_712914390_7785663_2950201_n.jpg</ContactPhoto>
+    <ContactPhone></ContactPhone>
+    <ContactDescription>
+      Jane is one of the band leaders, and plays euphonium.    </ContactDescription>
+    <ContactLink></ContactLink>
+  </ContactInfo>
+  <ContactInfo>
+    <ContactName>Annabelle Howard</ContactName>
+    <ContactEmail></ContactEmail>
+    <ContactPhoto>http://www.opencartaustralia.com/module/countdown/image/data/custom/transparent.png</ContactPhoto>
+    <ContactPhone></ContactPhone>
+    <ContactDescription>
+      Annabelle plays flute.
+    </ContactDescription>
+    <ContactLink></ContactLink>
+  </ContactInfo>
+</Contacts>

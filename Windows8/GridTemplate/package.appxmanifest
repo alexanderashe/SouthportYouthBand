@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="717c608f-ff7b-4d92-a247-73daf1a4a5cf" Version="1.0.0.0" Publisher="CN=mabeeby" />
+  <Properties>
+    <DisplayName>Southport Youth Band</DisplayName>
+    <PublisherDisplayName>Southport Youth Band</PublisherDisplayName>
+    <Logo>images\tile_50x50.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="Southport Youth Band" Logo="images\tile_150x150.png" SmallLogo="images\tile_30x30.png" Description="Southport Youth Band" ForegroundText="light" BackgroundColor="#81A44D">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="images\tile_620x300.png" BackgroundColor="#81A44D" />
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>

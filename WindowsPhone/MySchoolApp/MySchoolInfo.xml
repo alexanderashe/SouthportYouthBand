@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MySchoolInfo>
+    <SchoolName>Southport Youth Band</SchoolName>
+    <SchoolShortName>SYB</SchoolShortName>
+    <SchoolUrl>http://www.southportyouthband.co.uk</SchoolUrl>
+    <SchoolAddress>175 Forest Street</SchoolAddress>
+    <City>Waltham</City>
+    <State>MA</State>
+    <Zip>02452</Zip>
+    <SchoolColor1>1BA1E2</SchoolColor1>
+    <SchoolColor2>F09609</SchoolColor2>
+    <TeamName></TeamName>
+</MySchoolInfo>
+
